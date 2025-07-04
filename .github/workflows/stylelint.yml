@@ -1,5 +1,4 @@
 name: CSS Lint
-
 on: [push, pull_request]
 
 jobs:
@@ -7,14 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
       - uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: 'npm'
-
-      - name: Install Stylelint + SCSS config
-        run: npm install --save-dev stylelint stylelint-scss stylelint-config-standard-scss
-
-      - name: Run Stylelint
-        run: npx stylelint "styles/**/*.css" --config .stylelintrc.json
+      - run: npm ci
+      - run: npx stylelint "styles/*.css" --config .stylelintrc.json
