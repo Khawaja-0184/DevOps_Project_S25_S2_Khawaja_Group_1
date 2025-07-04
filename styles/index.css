@@ -1,6 +1,7 @@
-body{
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    color: #333;
-    background: orange;
+
+div {
+  color: red;
+  background: #fff url; 
+  font-size: 16px;
+  content: 'hello'; 
 }

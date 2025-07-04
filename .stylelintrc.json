@@ -2,14 +2,9 @@
   "extends": "stylelint-config-standard",
   "rules": {
     "indentation": 2,
-    "color-no-invalid-hex": true,
     "declaration-colon-space-after": "always",
-    "block-no-empty": true,
     "no-extra-semicolons": true,
-    "selector-max-id": 1,
-    "string-quotes": "double",
-    "property-no-unknown": true,
-    "unit-no-unknown": true,
-    "value-keyword-case": "lower"
+    "string-quotes": "single",
+    "declaration-block-no-shorthand-property-overrides": true
   }
 }
