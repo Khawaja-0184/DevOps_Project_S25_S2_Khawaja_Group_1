@@ -1,7 +1,6 @@
-
 div {
   color: red;
-  background: #fff url; 
+  background: #fff url('image.png');
   font-size: 16px;
-  content: 'hello'; 
+  content: 'hello';
 }
