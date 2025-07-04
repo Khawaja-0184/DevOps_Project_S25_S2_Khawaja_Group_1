@@ -1,9 +1,9 @@
 {
   "name": "devops_project_s25_s2_khawaja_group_1",
   "version": "1.0.0",
-  "private": true,
-  "description": "TravelEase - DevOps Term Project",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "lint:css": "stylelint styles/**/*.css"
   },
   "repository": {
@@ -17,9 +17,12 @@
     "url": "https://github.com/Rehmanilyas1/DevOps_Project_S25_S2_Khawaja_Group_1/issues"
   },
   "homepage": "https://github.com/Rehmanilyas1/DevOps_Project_S25_S2_Khawaja_Group_1#readme",
+  "description": "",
   "devDependencies": {
-    "stylelint": "^16.3.1",
-    "stylelint-config-standard-scss": "^13.0.0",
-    "stylelint-scss": "^6.0.0"
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^38.0.0",
+    "stylelint-config-standard-scss": "^15.0.1",
+    "stylelint-scss": "^6.12.1"
   }
 }
+
