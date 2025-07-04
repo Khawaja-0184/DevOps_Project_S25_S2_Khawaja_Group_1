@@ -1,0 +1,28 @@
+{
+  "name": "devops_project_s25_s2_khawaja_group_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:css": "stylelint styles/**/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rehmanilyas1/DevOps_Project_S25_S2_Khawaja_Group_1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rehmanilyas1/DevOps_Project_S25_S2_Khawaja_Group_1/issues"
+  },
+  "homepage": "https://github.com/Rehmanilyas1/DevOps_Project_S25_S2_Khawaja_Group_1#readme",
+  "description": "",
+  "devDependencies": {
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^38.0.0",
+    "stylelint-config-standard-scss": "^15.0.1",
+    "stylelint-scss": "^6.12.1"
+  }
+}
+
