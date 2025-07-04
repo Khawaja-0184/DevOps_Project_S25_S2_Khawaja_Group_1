@@ -1,27 +1,13 @@
 name: CSS Lint
-
-on:
-  pull_request:
-    branches: [develop, release, production]
-  push:
-    branches: [develop, release, production]
+on: [push, pull_request]
 
 jobs:
   stylelint:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: 20
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Run Stylelint
-        run: npm exec -- stylelint "styles/**/*.css" --config .stylelintrc.json
+          node-version: 18
+      - run: npm ci
+      - run: npx stylelint "styles/**/*.css"

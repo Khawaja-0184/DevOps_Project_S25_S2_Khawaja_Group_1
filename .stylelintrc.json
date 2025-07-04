@@ -3,12 +3,10 @@
   "rules": {
     "indentation": 2,
     "declaration-colon-space-after": "always",
-    "no-extra-semicolons": true,
     "string-quotes": "single",
-    "declaration-property-value-no-unknown": [true, {
-      "ignoreProperties": {
-        "background": ["/^url/"]
-      }
-    }]
-  }
+    "declaration-block-no-shorthand-property-overrides": true
+  },
+  "ignoreFiles": [
+    "**/node_modules/**"
+  ]
 }
