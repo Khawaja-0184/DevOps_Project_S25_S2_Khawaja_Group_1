@@ -24,4 +24,4 @@ jobs:
         run: npm ci
 
       - name: Run Stylelint
-        run: npx stylelint "styles/**/*.css"
+        run: npx --no-install stylelint "styles/**/*.css"
